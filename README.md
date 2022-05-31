@@ -16,3 +16,10 @@ AWS S3 allows replicating the newly uploaded objects to S3 destination buckets a
 Users can configure the replication rule so the rule can identify the objects to replicate using prefix, tag, or bucket through AWS CLI, Management Console, and AWS SDK.
 
 Blog Post on how to configure Replication Rule for AWS S3 Same Region - [Link](https://programmersblock.hashnode.dev/aws-s3-same-region-replication)
+
+### What is AWS S3 Cross-Region Replication (CRR)?
+Amazon S3 allows cross region replication of the newly uploaded objects to S3 destination buckets asynchronously and automatically across different AWS Regions.
+
+Users can configure the replication rule so the rule can identify the objects to replicate using prefix, tag, or bucket through AWS CLI, Management Console, and AWS SDK.
+
+Blog Post on how to configure Replication Rule for AWS S3 Cross Region - [Link](https://programmersblock.hashnode.dev/amazon-s3-cross-region-replication)
