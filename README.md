@@ -23,3 +23,11 @@ Amazon S3 allows cross region replication of the newly uploaded objects to S3 de
 Users can configure the replication rule so the rule can identify the objects to replicate using prefix, tag, or bucket through AWS CLI, Management Console, and AWS SDK.
 
 Blog Post on how to configure Replication Rule for AWS S3 Cross Region - [Link](https://programmersblock.hashnode.dev/amazon-s3-cross-region-replication)
+
+
+### What is AWS S3 Cross Account Replication (CRR)?
+AWS S3 Cross Account replication refers to copying S3 objects between buckets in different AWS Accounts. These AWS Accounts might be owned by the same organization or by other individuals.
+
+Configuring AWS S3 Cross Account replication is similar to S3 Same Region replication and S3 Cross Region replication, with a difference in providing the bucket policy to the destination bucket allowing the source bucket owner to replicate objects to the destination bucket.
+
+Blog Post on how to configure Replication Rule for AWS S3 Cross Region - [Link](https://programmerblock.com/how-to-configure-s3-cross-account-replication/)
