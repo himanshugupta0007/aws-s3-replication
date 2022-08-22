@@ -8,6 +8,7 @@ AWS S3 provides the fully managed feature to automatically replicate the newly u
 
 - AWS Same Region Replication (SRR) - replicates objects between Amazon S3 source and destination buckets in the same AWS region
 - AWS Cross-Region Replication (CRR) - replicates objects between Amazon S3 source and destination buckets in the different AWS region
+- AWS Cross Account Replication - replicates objects between Amazon different AWS Account in same or different regions
 
 ### What is AWS S3 Same Region Replication (SRR)?
 
